@@ -1,0 +1,2118 @@
+{
+  "Account": {
+    "type": "deposit",
+    "maskedAccNumber": "XXXXXX4371",
+    "version": "1.1.2",
+    "linkedAccRef": "987654321013",
+    "Profile": {
+      "Holders": {
+        "Holder": [
+          {
+            "name": "Divergent Trade & Logistics Pvt Ltd",
+            "dob": "1985-06-20",
+            "mobile": "9800000000",
+            "email": "ops@divergenttrade.in",
+            "address": "B-402, Industrial Estate, Phase II, Okhla, New Delhi",
+            "pan": "BXRPM5678Q"
+          }
+        ]
+      }
+    },
+    "Summary": {
+      "currentBalance": "438391.84",
+      "currency": "INR",
+      "balDateTime": "2026-03-31T23:59:59Z",
+      "type": "CURRENT",
+      "branch": "Okhla Commercial Hub",
+      "facility": "OVERDRAFT",
+      "ifscCode": "ICIC0000123",
+      "status": "ACTIVE"
+    },
+    "Transactions": {
+      "startDate": "2026-01-01",
+      "endDate": "2026-03-31",
+      "Transaction": [
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "212.00",
+          "currentBalance": "185212.00",
+          "transactionTimestamp": "2026-01-01T10:10:00Z",
+          "valueDate": "2026-01-01",
+          "txnId": "UPI47943807",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_005"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "241.84",
+          "currentBalance": "185453.84",
+          "transactionTimestamp": "2026-01-02T10:42:00Z",
+          "valueDate": "2026-01-02",
+          "txnId": "UPI53513192",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_063"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "516.61",
+          "currentBalance": "185970.45",
+          "transactionTimestamp": "2026-01-02T10:29:00Z",
+          "valueDate": "2026-01-02",
+          "txnId": "UPI34449765",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_022"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "415.62",
+          "currentBalance": "185554.83",
+          "transactionTimestamp": "2026-01-02T14:32:00Z",
+          "valueDate": "2026-01-02",
+          "txnId": "UPI95482591",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "130.08",
+          "currentBalance": "185684.91",
+          "transactionTimestamp": "2026-01-03T10:11:00Z",
+          "valueDate": "2026-01-03",
+          "txnId": "UPI13344895",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_056"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "318.97",
+          "currentBalance": "186003.88",
+          "transactionTimestamp": "2026-01-03T10:15:00Z",
+          "valueDate": "2026-01-03",
+          "txnId": "UPI76113588",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_094"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "362.58",
+          "currentBalance": "186366.46",
+          "transactionTimestamp": "2026-01-03T10:14:00Z",
+          "valueDate": "2026-01-03",
+          "txnId": "UPI15100605",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_023"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "509.43",
+          "currentBalance": "185857.03",
+          "transactionTimestamp": "2026-01-04T14:11:00Z",
+          "valueDate": "2026-01-04",
+          "txnId": "UPI73646831",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "361.00",
+          "currentBalance": "186218.03",
+          "transactionTimestamp": "2026-01-04T10:39:00Z",
+          "valueDate": "2026-01-04",
+          "txnId": "UPI43837877",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_128"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "922.09",
+          "currentBalance": "185295.94",
+          "transactionTimestamp": "2026-01-04T14:45:00Z",
+          "valueDate": "2026-01-04",
+          "txnId": "UPI74982366",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "226.61",
+          "currentBalance": "185069.33",
+          "transactionTimestamp": "2026-01-05T14:47:00Z",
+          "valueDate": "2026-01-05",
+          "txnId": "UPI64405576",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "165408.36",
+          "currentBalance": "350477.69",
+          "transactionTimestamp": "2026-01-05T11:20:00Z",
+          "valueDate": "2026-01-05",
+          "txnId": "RTGS95856615",
+          "narration": "RTGS-INWARD-SETTLEMENT-NORTH_CONSTRUCT"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "151360.28",
+          "currentBalance": "199117.41",
+          "transactionTimestamp": "2026-01-05T15:45:00Z",
+          "valueDate": "2026-01-05",
+          "txnId": "NEFT54058675",
+          "narration": "NEFT-OUTWARD-TRFR-KAPOOR_CONSULTANCY_SERVICES"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "130.77",
+          "currentBalance": "199248.18",
+          "transactionTimestamp": "2026-01-06T10:20:00Z",
+          "valueDate": "2026-01-06",
+          "txnId": "UPI64680521",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_142"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "842.56",
+          "currentBalance": "200090.74",
+          "transactionTimestamp": "2026-01-06T10:42:00Z",
+          "valueDate": "2026-01-06",
+          "txnId": "UPI14635557",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_018"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "831.26",
+          "currentBalance": "200922.00",
+          "transactionTimestamp": "2026-01-07T10:12:00Z",
+          "valueDate": "2026-01-07",
+          "txnId": "UPI95254536",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_037"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "315.95",
+          "currentBalance": "200606.05",
+          "transactionTimestamp": "2026-01-08T14:43:00Z",
+          "valueDate": "2026-01-08",
+          "txnId": "UPI88278501",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "462.69",
+          "currentBalance": "201068.74",
+          "transactionTimestamp": "2026-01-08T10:42:00Z",
+          "valueDate": "2026-01-08",
+          "txnId": "UPI47368212",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_024"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "662.71",
+          "currentBalance": "201731.45",
+          "transactionTimestamp": "2026-01-09T10:49:00Z",
+          "valueDate": "2026-01-09",
+          "txnId": "UPI34080940",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_121"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "85.83",
+          "currentBalance": "201817.28",
+          "transactionTimestamp": "2026-01-10T10:35:00Z",
+          "valueDate": "2026-01-10",
+          "txnId": "UPI81485455",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_022"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "657.43",
+          "currentBalance": "201159.85",
+          "transactionTimestamp": "2026-01-11T14:41:00Z",
+          "valueDate": "2026-01-11",
+          "txnId": "UPI93811689",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "217.57",
+          "currentBalance": "201377.42",
+          "transactionTimestamp": "2026-01-11T10:14:00Z",
+          "valueDate": "2026-01-11",
+          "txnId": "UPI53259440",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_061"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "83.21",
+          "currentBalance": "201460.63",
+          "transactionTimestamp": "2026-01-12T10:30:00Z",
+          "valueDate": "2026-01-12",
+          "txnId": "UPI23482197",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_064"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "762.09",
+          "currentBalance": "200698.54",
+          "transactionTimestamp": "2026-01-13T14:32:00Z",
+          "valueDate": "2026-01-13",
+          "txnId": "UPI15928138",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "425.15",
+          "currentBalance": "200273.39",
+          "transactionTimestamp": "2026-01-13T14:38:00Z",
+          "valueDate": "2026-01-13",
+          "txnId": "UPI79209624",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "192802.80",
+          "currentBalance": "393076.19",
+          "transactionTimestamp": "2026-01-13T11:20:00Z",
+          "valueDate": "2026-01-13",
+          "txnId": "RTGS43871929",
+          "narration": "RTGS-INWARD-SETTLEMENT-NORTH_CONSTRUCT"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "184951.21",
+          "currentBalance": "208124.98",
+          "transactionTimestamp": "2026-01-13T15:45:00Z",
+          "valueDate": "2026-01-13",
+          "txnId": "NEFT14345428",
+          "narration": "NEFT-OUTWARD-TRFR-SHELTER_ENTERPRISES_PVT"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "141.10",
+          "currentBalance": "208266.08",
+          "transactionTimestamp": "2026-01-14T10:42:00Z",
+          "valueDate": "2026-01-14",
+          "txnId": "UPI83934953",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_145"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "352.16",
+          "currentBalance": "208618.24",
+          "transactionTimestamp": "2026-01-14T10:34:00Z",
+          "valueDate": "2026-01-14",
+          "txnId": "UPI65938131",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_003"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "374.28",
+          "currentBalance": "208992.52",
+          "transactionTimestamp": "2026-01-14T10:37:00Z",
+          "valueDate": "2026-01-14",
+          "txnId": "UPI43656165",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_145"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "370.90",
+          "currentBalance": "209363.42",
+          "transactionTimestamp": "2026-01-15T10:25:00Z",
+          "valueDate": "2026-01-15",
+          "txnId": "UPI96836176",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_088"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "658.02",
+          "currentBalance": "208705.40",
+          "transactionTimestamp": "2026-01-15T14:24:00Z",
+          "valueDate": "2026-01-15",
+          "txnId": "UPI46112164",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "129558.47",
+          "currentBalance": "338263.87",
+          "transactionTimestamp": "2026-01-15T11:20:00Z",
+          "valueDate": "2026-01-15",
+          "txnId": "RTGS71994961",
+          "narration": "RTGS-INWARD-SETTLEMENT-STEEL_STRUCT_LTD"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "114745.47",
+          "currentBalance": "223518.40",
+          "transactionTimestamp": "2026-01-15T15:45:00Z",
+          "valueDate": "2026-01-15",
+          "txnId": "NEFT78981057",
+          "narration": "NEFT-OUTWARD-TRFR-PERSONAL_ACC_TRANSFER_DIRECT"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "649.10",
+          "currentBalance": "222869.30",
+          "transactionTimestamp": "2026-01-16T14:38:00Z",
+          "valueDate": "2026-01-16",
+          "txnId": "UPI69755300",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "101.85",
+          "currentBalance": "222971.15",
+          "transactionTimestamp": "2026-01-16T10:11:00Z",
+          "valueDate": "2026-01-16",
+          "txnId": "UPI81543235",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_012"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "222.32",
+          "currentBalance": "223193.47",
+          "transactionTimestamp": "2026-01-16T10:35:00Z",
+          "valueDate": "2026-01-16",
+          "txnId": "UPI66844397",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_098"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "288.51",
+          "currentBalance": "223481.98",
+          "transactionTimestamp": "2026-01-17T10:19:00Z",
+          "valueDate": "2026-01-17",
+          "txnId": "UPI93861946",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_120"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "262.98",
+          "currentBalance": "223744.96",
+          "transactionTimestamp": "2026-01-17T10:11:00Z",
+          "valueDate": "2026-01-17",
+          "txnId": "UPI56306617",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_049"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "487.97",
+          "currentBalance": "223256.99",
+          "transactionTimestamp": "2026-01-17T14:33:00Z",
+          "valueDate": "2026-01-17",
+          "txnId": "UPI68730278",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "244.19",
+          "currentBalance": "223501.18",
+          "transactionTimestamp": "2026-01-18T10:33:00Z",
+          "valueDate": "2026-01-18",
+          "txnId": "UPI98261242",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_148"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "89.54",
+          "currentBalance": "223411.64",
+          "transactionTimestamp": "2026-01-18T14:39:00Z",
+          "valueDate": "2026-01-18",
+          "txnId": "UPI89163223",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "366.17",
+          "currentBalance": "223045.47",
+          "transactionTimestamp": "2026-01-18T14:46:00Z",
+          "valueDate": "2026-01-18",
+          "txnId": "UPI29287269",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "834.94",
+          "currentBalance": "222210.53",
+          "transactionTimestamp": "2026-01-19T14:36:00Z",
+          "valueDate": "2026-01-19",
+          "txnId": "UPI61107146",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "919.31",
+          "currentBalance": "221291.22",
+          "transactionTimestamp": "2026-01-19T14:44:00Z",
+          "valueDate": "2026-01-19",
+          "txnId": "UPI68542172",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "584.08",
+          "currentBalance": "221875.30",
+          "transactionTimestamp": "2026-01-19T10:21:00Z",
+          "valueDate": "2026-01-19",
+          "txnId": "UPI43632552",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_143"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "448.39",
+          "currentBalance": "221426.91",
+          "transactionTimestamp": "2026-01-20T14:28:00Z",
+          "valueDate": "2026-01-20",
+          "txnId": "UPI19124131",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "254.76",
+          "currentBalance": "221172.15",
+          "transactionTimestamp": "2026-01-21T14:18:00Z",
+          "valueDate": "2026-01-21",
+          "txnId": "UPI76656044",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "769.92",
+          "currentBalance": "220402.23",
+          "transactionTimestamp": "2026-01-21T14:43:00Z",
+          "valueDate": "2026-01-21",
+          "txnId": "UPI67077040",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "547.22",
+          "currentBalance": "219855.01",
+          "transactionTimestamp": "2026-01-21T14:42:00Z",
+          "valueDate": "2026-01-21",
+          "txnId": "UPI76935515",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "284.05",
+          "currentBalance": "219570.96",
+          "transactionTimestamp": "2026-01-22T14:40:00Z",
+          "valueDate": "2026-01-22",
+          "txnId": "UPI97636672",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "398.89",
+          "currentBalance": "219172.07",
+          "transactionTimestamp": "2026-01-22T14:15:00Z",
+          "valueDate": "2026-01-22",
+          "txnId": "UPI44626346",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "706.06",
+          "currentBalance": "218466.01",
+          "transactionTimestamp": "2026-01-22T14:23:00Z",
+          "valueDate": "2026-01-22",
+          "txnId": "UPI43212086",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "151141.17",
+          "currentBalance": "369607.18",
+          "transactionTimestamp": "2026-01-22T11:20:00Z",
+          "valueDate": "2026-01-22",
+          "txnId": "RTGS83006679",
+          "narration": "RTGS-INWARD-SETTLEMENT-STEEL_STRUCT_LTD"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "137677.30",
+          "currentBalance": "231929.88",
+          "transactionTimestamp": "2026-01-22T15:45:00Z",
+          "valueDate": "2026-01-22",
+          "txnId": "NEFT68830556",
+          "narration": "NEFT-OUTWARD-TRFR-CASH_WITHDRAWAL_HQ"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "687.50",
+          "currentBalance": "232617.38",
+          "transactionTimestamp": "2026-01-23T10:45:00Z",
+          "valueDate": "2026-01-23",
+          "txnId": "UPI99807092",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_135"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "531.36",
+          "currentBalance": "233148.74",
+          "transactionTimestamp": "2026-01-23T10:21:00Z",
+          "valueDate": "2026-01-23",
+          "txnId": "UPI24822925",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_045"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "548.75",
+          "currentBalance": "232599.99",
+          "transactionTimestamp": "2026-01-24T14:14:00Z",
+          "valueDate": "2026-01-24",
+          "txnId": "UPI23902878",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "95.44",
+          "currentBalance": "232695.43",
+          "transactionTimestamp": "2026-01-24T10:18:00Z",
+          "valueDate": "2026-01-24",
+          "txnId": "UPI33785057",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_021"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "204.35",
+          "currentBalance": "232899.78",
+          "transactionTimestamp": "2026-01-25T10:12:00Z",
+          "valueDate": "2026-01-25",
+          "txnId": "UPI51497273",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_009"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "621.97",
+          "currentBalance": "232277.81",
+          "transactionTimestamp": "2026-01-25T14:14:00Z",
+          "valueDate": "2026-01-25",
+          "txnId": "UPI12223822",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "511.74",
+          "currentBalance": "232789.55",
+          "transactionTimestamp": "2026-01-26T10:19:00Z",
+          "valueDate": "2026-01-26",
+          "txnId": "UPI59618497",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_044"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "802.10",
+          "currentBalance": "231987.45",
+          "transactionTimestamp": "2026-01-26T14:45:00Z",
+          "valueDate": "2026-01-26",
+          "txnId": "UPI47345046",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "819.18",
+          "currentBalance": "232806.63",
+          "transactionTimestamp": "2026-01-27T10:22:00Z",
+          "valueDate": "2026-01-27",
+          "txnId": "UPI34331162",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_004"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "378.34",
+          "currentBalance": "232428.29",
+          "transactionTimestamp": "2026-01-27T14:36:00Z",
+          "valueDate": "2026-01-27",
+          "txnId": "UPI27629571",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "546.98",
+          "currentBalance": "232975.27",
+          "transactionTimestamp": "2026-01-27T10:22:00Z",
+          "valueDate": "2026-01-27",
+          "txnId": "UPI66668471",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_091"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "100.92",
+          "currentBalance": "232874.35",
+          "transactionTimestamp": "2026-01-28T14:43:00Z",
+          "valueDate": "2026-01-28",
+          "txnId": "UPI70009270",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "625.88",
+          "currentBalance": "232248.47",
+          "transactionTimestamp": "2026-01-29T14:24:00Z",
+          "valueDate": "2026-01-29",
+          "txnId": "UPI43530636",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "146951.38",
+          "currentBalance": "379199.85",
+          "transactionTimestamp": "2026-01-29T11:20:00Z",
+          "valueDate": "2026-01-29",
+          "txnId": "RTGS65760437",
+          "narration": "RTGS-INWARD-SETTLEMENT-ZENITH_WORKS"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "129263.56",
+          "currentBalance": "249936.29",
+          "transactionTimestamp": "2026-01-29T15:45:00Z",
+          "valueDate": "2026-01-29",
+          "txnId": "NEFT28372916",
+          "narration": "NEFT-OUTWARD-TRFR-SHELTER_ENTERPRISES_PVT"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "726.88",
+          "currentBalance": "249209.41",
+          "transactionTimestamp": "2026-01-30T14:22:00Z",
+          "valueDate": "2026-01-30",
+          "txnId": "UPI94644313",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "853.95",
+          "currentBalance": "248355.46",
+          "transactionTimestamp": "2026-01-30T14:16:00Z",
+          "valueDate": "2026-01-30",
+          "txnId": "UPI13704712",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "519.75",
+          "currentBalance": "247835.71",
+          "transactionTimestamp": "2026-01-31T14:16:00Z",
+          "valueDate": "2026-01-31",
+          "txnId": "UPI60757392",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "929.91",
+          "currentBalance": "248765.62",
+          "transactionTimestamp": "2026-01-31T10:25:00Z",
+          "valueDate": "2026-01-31",
+          "txnId": "UPI36577980",
+          "narration": "UPI-RETAIL-PAY-UPI_User_J_045"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "343.36",
+          "currentBalance": "248422.26",
+          "transactionTimestamp": "2026-01-31T14:21:00Z",
+          "valueDate": "2026-01-31",
+          "txnId": "UPI80946322",
+          "narration": "UPI-PETTY-CASH-OFFICE_JAN"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "118.00",
+          "currentBalance": "248304.26",
+          "transactionTimestamp": "2026-02-01T14:41:00Z",
+          "valueDate": "2026-02-01",
+          "txnId": "UPI28476610",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "161510.51",
+          "currentBalance": "409814.77",
+          "transactionTimestamp": "2026-02-01T11:20:00Z",
+          "valueDate": "2026-02-01",
+          "txnId": "RTGS68952653",
+          "narration": "RTGS-INWARD-SETTLEMENT-ZENITH_WORKS"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "141948.94",
+          "currentBalance": "267865.83",
+          "transactionTimestamp": "2026-02-01T15:45:00Z",
+          "valueDate": "2026-02-01",
+          "txnId": "NEFT61110168",
+          "narration": "NEFT-OUTWARD-TRFR-UNREG_VENDOR_ALPHA"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "56.80",
+          "currentBalance": "267922.63",
+          "transactionTimestamp": "2026-02-02T10:47:00Z",
+          "valueDate": "2026-02-02",
+          "txnId": "UPI14175050",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_074"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "732.25",
+          "currentBalance": "268654.88",
+          "transactionTimestamp": "2026-02-02T10:10:00Z",
+          "valueDate": "2026-02-02",
+          "txnId": "UPI52885239",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_006"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "664.86",
+          "currentBalance": "267990.02",
+          "transactionTimestamp": "2026-02-03T14:12:00Z",
+          "valueDate": "2026-02-03",
+          "txnId": "UPI57085473",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "188121.73",
+          "currentBalance": "456111.75",
+          "transactionTimestamp": "2026-02-03T11:20:00Z",
+          "valueDate": "2026-02-03",
+          "txnId": "RTGS31208153",
+          "narration": "RTGS-INWARD-SETTLEMENT-ALPHA_LOGISTICS"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "174949.38",
+          "currentBalance": "281162.37",
+          "transactionTimestamp": "2026-02-03T15:45:00Z",
+          "valueDate": "2026-02-03",
+          "txnId": "NEFT98567984",
+          "narration": "NEFT-OUTWARD-TRFR-CASH_WITHDRAWAL_HQ"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "378.13",
+          "currentBalance": "281540.50",
+          "transactionTimestamp": "2026-02-04T10:18:00Z",
+          "valueDate": "2026-02-04",
+          "txnId": "UPI76263453",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_128"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "721.42",
+          "currentBalance": "282261.92",
+          "transactionTimestamp": "2026-02-05T10:38:00Z",
+          "valueDate": "2026-02-05",
+          "txnId": "UPI47576566",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_111"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "185.99",
+          "currentBalance": "282447.91",
+          "transactionTimestamp": "2026-02-05T10:19:00Z",
+          "valueDate": "2026-02-05",
+          "txnId": "UPI63158028",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_022"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "925.43",
+          "currentBalance": "281522.48",
+          "transactionTimestamp": "2026-02-05T14:31:00Z",
+          "valueDate": "2026-02-05",
+          "txnId": "UPI55963662",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "345.87",
+          "currentBalance": "281868.35",
+          "transactionTimestamp": "2026-02-06T10:29:00Z",
+          "valueDate": "2026-02-06",
+          "txnId": "UPI27398947",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_027"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "808.51",
+          "currentBalance": "282676.86",
+          "transactionTimestamp": "2026-02-06T10:43:00Z",
+          "valueDate": "2026-02-06",
+          "txnId": "UPI59126263",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_052"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "208968.27",
+          "currentBalance": "491645.13",
+          "transactionTimestamp": "2026-02-06T11:20:00Z",
+          "valueDate": "2026-02-06",
+          "txnId": "RTGS32947800",
+          "narration": "RTGS-INWARD-SETTLEMENT-TRIDENT_INFRA"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "173307.33",
+          "currentBalance": "318337.80",
+          "transactionTimestamp": "2026-02-06T15:45:00Z",
+          "valueDate": "2026-02-06",
+          "txnId": "NEFT82696093",
+          "narration": "NEFT-OUTWARD-TRFR-PERSONAL_ACC_TRANSFER_DIRECT"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "890.71",
+          "currentBalance": "319228.51",
+          "transactionTimestamp": "2026-02-07T10:30:00Z",
+          "valueDate": "2026-02-07",
+          "txnId": "UPI94034895",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_030"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "98.03",
+          "currentBalance": "319130.48",
+          "transactionTimestamp": "2026-02-08T14:41:00Z",
+          "valueDate": "2026-02-08",
+          "txnId": "UPI42132060",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "241.91",
+          "currentBalance": "319372.39",
+          "transactionTimestamp": "2026-02-08T10:31:00Z",
+          "valueDate": "2026-02-08",
+          "txnId": "UPI62019486",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_084"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "829.56",
+          "currentBalance": "320201.95",
+          "transactionTimestamp": "2026-02-08T10:36:00Z",
+          "valueDate": "2026-02-08",
+          "txnId": "UPI84731733",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_088"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "626.66",
+          "currentBalance": "319575.29",
+          "transactionTimestamp": "2026-02-09T14:30:00Z",
+          "valueDate": "2026-02-09",
+          "txnId": "UPI98503155",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "771.38",
+          "currentBalance": "320346.67",
+          "transactionTimestamp": "2026-02-09T10:28:00Z",
+          "valueDate": "2026-02-09",
+          "txnId": "UPI74118767",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_148"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "194.98",
+          "currentBalance": "320541.65",
+          "transactionTimestamp": "2026-02-10T10:48:00Z",
+          "valueDate": "2026-02-10",
+          "txnId": "UPI38325416",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_046"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "328.98",
+          "currentBalance": "320212.67",
+          "transactionTimestamp": "2026-02-11T14:22:00Z",
+          "valueDate": "2026-02-11",
+          "txnId": "UPI88915564",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "721.39",
+          "currentBalance": "320934.06",
+          "transactionTimestamp": "2026-02-12T10:13:00Z",
+          "valueDate": "2026-02-12",
+          "txnId": "UPI55472333",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_110"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "149849.80",
+          "currentBalance": "470783.86",
+          "transactionTimestamp": "2026-02-12T11:20:00Z",
+          "valueDate": "2026-02-12",
+          "txnId": "RTGS67844932",
+          "narration": "RTGS-INWARD-SETTLEMENT-ALPHA_LOGISTICS"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "137624.07",
+          "currentBalance": "333159.79",
+          "transactionTimestamp": "2026-02-12T15:45:00Z",
+          "valueDate": "2026-02-12",
+          "txnId": "NEFT27474038",
+          "narration": "NEFT-OUTWARD-TRFR-UNREG_VENDOR_ALPHA"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "831.44",
+          "currentBalance": "332328.35",
+          "transactionTimestamp": "2026-02-13T14:12:00Z",
+          "valueDate": "2026-02-13",
+          "txnId": "UPI85225782",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "617.07",
+          "currentBalance": "332945.42",
+          "transactionTimestamp": "2026-02-13T10:34:00Z",
+          "valueDate": "2026-02-13",
+          "txnId": "UPI41404932",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_042"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "888.57",
+          "currentBalance": "333833.99",
+          "transactionTimestamp": "2026-02-14T10:30:00Z",
+          "valueDate": "2026-02-14",
+          "txnId": "UPI26814137",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_094"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "122.08",
+          "currentBalance": "333956.07",
+          "transactionTimestamp": "2026-02-14T10:16:00Z",
+          "valueDate": "2026-02-14",
+          "txnId": "UPI55470170",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_090"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "604.39",
+          "currentBalance": "334560.46",
+          "transactionTimestamp": "2026-02-14T10:28:00Z",
+          "valueDate": "2026-02-14",
+          "txnId": "UPI57005772",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_087"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "533.38",
+          "currentBalance": "335093.84",
+          "transactionTimestamp": "2026-02-15T10:48:00Z",
+          "valueDate": "2026-02-15",
+          "txnId": "UPI59330919",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_011"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "447.64",
+          "currentBalance": "335541.48",
+          "transactionTimestamp": "2026-02-16T10:44:00Z",
+          "valueDate": "2026-02-16",
+          "txnId": "UPI84703755",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_006"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "854.53",
+          "currentBalance": "336396.01",
+          "transactionTimestamp": "2026-02-16T10:20:00Z",
+          "valueDate": "2026-02-16",
+          "txnId": "UPI72241058",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_079"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "575.88",
+          "currentBalance": "335820.13",
+          "transactionTimestamp": "2026-02-17T14:24:00Z",
+          "valueDate": "2026-02-17",
+          "txnId": "UPI35727630",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "610.37",
+          "currentBalance": "335209.76",
+          "transactionTimestamp": "2026-02-17T14:17:00Z",
+          "valueDate": "2026-02-17",
+          "txnId": "UPI42611513",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "637.03",
+          "currentBalance": "335846.79",
+          "transactionTimestamp": "2026-02-17T10:46:00Z",
+          "valueDate": "2026-02-17",
+          "txnId": "UPI20719072",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_018"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "764.35",
+          "currentBalance": "336611.14",
+          "transactionTimestamp": "2026-02-18T10:27:00Z",
+          "valueDate": "2026-02-18",
+          "txnId": "UPI54360933",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_100"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "545.54",
+          "currentBalance": "336065.60",
+          "transactionTimestamp": "2026-02-18T14:19:00Z",
+          "valueDate": "2026-02-18",
+          "txnId": "UPI92025312",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "580.24",
+          "currentBalance": "335485.36",
+          "transactionTimestamp": "2026-02-19T14:42:00Z",
+          "valueDate": "2026-02-19",
+          "txnId": "UPI54435575",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "518.38",
+          "currentBalance": "334966.98",
+          "transactionTimestamp": "2026-02-19T14:24:00Z",
+          "valueDate": "2026-02-19",
+          "txnId": "UPI77721116",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "290.96",
+          "currentBalance": "334676.02",
+          "transactionTimestamp": "2026-02-19T14:44:00Z",
+          "valueDate": "2026-02-19",
+          "txnId": "UPI14785892",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "120436.69",
+          "currentBalance": "455112.71",
+          "transactionTimestamp": "2026-02-19T11:20:00Z",
+          "valueDate": "2026-02-19",
+          "txnId": "RTGS76082402",
+          "narration": "RTGS-INWARD-SETTLEMENT-GLOBAL_EXPORTS_INC"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "114072.49",
+          "currentBalance": "341040.22",
+          "transactionTimestamp": "2026-02-19T15:45:00Z",
+          "valueDate": "2026-02-19",
+          "txnId": "NEFT39210209",
+          "narration": "NEFT-OUTWARD-TRFR-SHELTER_ENTERPRISES_PVT"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "477.14",
+          "currentBalance": "340563.08",
+          "transactionTimestamp": "2026-02-20T14:24:00Z",
+          "valueDate": "2026-02-20",
+          "txnId": "UPI22242780",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "786.25",
+          "currentBalance": "339776.83",
+          "transactionTimestamp": "2026-02-20T14:10:00Z",
+          "valueDate": "2026-02-20",
+          "txnId": "UPI13739678",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "134.11",
+          "currentBalance": "339910.94",
+          "transactionTimestamp": "2026-02-21T10:38:00Z",
+          "valueDate": "2026-02-21",
+          "txnId": "UPI73264154",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_104"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "826.01",
+          "currentBalance": "339084.93",
+          "transactionTimestamp": "2026-02-22T14:49:00Z",
+          "valueDate": "2026-02-22",
+          "txnId": "UPI80053335",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "444.12",
+          "currentBalance": "338640.81",
+          "transactionTimestamp": "2026-02-22T14:43:00Z",
+          "valueDate": "2026-02-22",
+          "txnId": "UPI20068774",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "177.62",
+          "currentBalance": "338463.19",
+          "transactionTimestamp": "2026-02-23T14:33:00Z",
+          "valueDate": "2026-02-23",
+          "txnId": "UPI70041074",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "106.50",
+          "currentBalance": "338569.69",
+          "transactionTimestamp": "2026-02-24T10:30:00Z",
+          "valueDate": "2026-02-24",
+          "txnId": "UPI89262331",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_035"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "694.05",
+          "currentBalance": "337875.64",
+          "transactionTimestamp": "2026-02-24T14:49:00Z",
+          "valueDate": "2026-02-24",
+          "txnId": "UPI17322818",
+          "narration": "UPI-PETTY-CASH-OFFICE_FEB"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "738.00",
+          "currentBalance": "338613.64",
+          "transactionTimestamp": "2026-02-25T10:37:00Z",
+          "valueDate": "2026-02-25",
+          "txnId": "UPI57215992",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_121"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "569.94",
+          "currentBalance": "339183.58",
+          "transactionTimestamp": "2026-02-25T10:35:00Z",
+          "valueDate": "2026-02-25",
+          "txnId": "UPI37550228",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_066"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "876.05",
+          "currentBalance": "340059.63",
+          "transactionTimestamp": "2026-02-25T10:41:00Z",
+          "valueDate": "2026-02-25",
+          "txnId": "UPI79850815",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_099"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "468.24",
+          "currentBalance": "340527.87",
+          "transactionTimestamp": "2026-02-26T10:27:00Z",
+          "valueDate": "2026-02-26",
+          "txnId": "UPI52312036",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_142"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "512.20",
+          "currentBalance": "341040.07",
+          "transactionTimestamp": "2026-02-27T10:15:00Z",
+          "valueDate": "2026-02-27",
+          "txnId": "UPI34355053",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_126"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "735.45",
+          "currentBalance": "341775.52",
+          "transactionTimestamp": "2026-02-28T10:41:00Z",
+          "valueDate": "2026-02-28",
+          "txnId": "UPI76318320",
+          "narration": "UPI-RETAIL-PAY-UPI_User_F_044"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "189.46",
+          "currentBalance": "341964.98",
+          "transactionTimestamp": "2026-03-01T10:22:00Z",
+          "valueDate": "2026-03-01",
+          "txnId": "UPI60518416",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_099"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "556.70",
+          "currentBalance": "341408.28",
+          "transactionTimestamp": "2026-03-01T14:36:00Z",
+          "valueDate": "2026-03-01",
+          "txnId": "UPI94318137",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "337.01",
+          "currentBalance": "341071.27",
+          "transactionTimestamp": "2026-03-01T14:15:00Z",
+          "valueDate": "2026-03-01",
+          "txnId": "UPI65153330",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "388.05",
+          "currentBalance": "341459.32",
+          "transactionTimestamp": "2026-03-02T10:21:00Z",
+          "valueDate": "2026-03-02",
+          "txnId": "UPI55014857",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_092"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "88.50",
+          "currentBalance": "341370.82",
+          "transactionTimestamp": "2026-03-02T14:46:00Z",
+          "valueDate": "2026-03-02",
+          "txnId": "UPI27739277",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "472.68",
+          "currentBalance": "340898.14",
+          "transactionTimestamp": "2026-03-03T14:18:00Z",
+          "valueDate": "2026-03-03",
+          "txnId": "UPI43819431",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "376.24",
+          "currentBalance": "340521.90",
+          "transactionTimestamp": "2026-03-03T14:13:00Z",
+          "valueDate": "2026-03-03",
+          "txnId": "UPI78940381",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "380.14",
+          "currentBalance": "340141.76",
+          "transactionTimestamp": "2026-03-04T14:30:00Z",
+          "valueDate": "2026-03-04",
+          "txnId": "UPI11607148",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "164724.12",
+          "currentBalance": "504865.88",
+          "transactionTimestamp": "2026-03-04T11:20:00Z",
+          "valueDate": "2026-03-04",
+          "txnId": "RTGS33252570",
+          "narration": "RTGS-INWARD-SETTLEMENT-NORTH_CONSTRUCT"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "135981.50",
+          "currentBalance": "368884.38",
+          "transactionTimestamp": "2026-03-04T15:45:00Z",
+          "valueDate": "2026-03-04",
+          "txnId": "NEFT34936980",
+          "narration": "NEFT-OUTWARD-TRFR-SHELTER_ENTERPRISES_PVT"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "757.50",
+          "currentBalance": "369641.88",
+          "transactionTimestamp": "2026-03-05T10:31:00Z",
+          "valueDate": "2026-03-05",
+          "txnId": "UPI97927255",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_046"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "792.97",
+          "currentBalance": "370434.85",
+          "transactionTimestamp": "2026-03-05T10:22:00Z",
+          "valueDate": "2026-03-05",
+          "txnId": "UPI18358083",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_045"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "162.23",
+          "currentBalance": "370272.62",
+          "transactionTimestamp": "2026-03-05T14:17:00Z",
+          "valueDate": "2026-03-05",
+          "txnId": "UPI84609480",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "205756.66",
+          "currentBalance": "576029.28",
+          "transactionTimestamp": "2026-03-05T11:20:00Z",
+          "valueDate": "2026-03-05",
+          "txnId": "RTGS53468970",
+          "narration": "RTGS-INWARD-SETTLEMENT-ALPHA_LOGISTICS"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "169523.66",
+          "currentBalance": "406505.62",
+          "transactionTimestamp": "2026-03-05T15:45:00Z",
+          "valueDate": "2026-03-05",
+          "txnId": "NEFT19103281",
+          "narration": "NEFT-OUTWARD-TRFR-PERSONAL_ACC_TRANSFER_DIRECT"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "62.39",
+          "currentBalance": "406443.23",
+          "transactionTimestamp": "2026-03-06T14:21:00Z",
+          "valueDate": "2026-03-06",
+          "txnId": "UPI39483869",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "179.23",
+          "currentBalance": "406264.00",
+          "transactionTimestamp": "2026-03-06T14:32:00Z",
+          "valueDate": "2026-03-06",
+          "txnId": "UPI34590475",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "455.11",
+          "currentBalance": "406719.11",
+          "transactionTimestamp": "2026-03-06T10:38:00Z",
+          "valueDate": "2026-03-06",
+          "txnId": "UPI63006872",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_126"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "681.85",
+          "currentBalance": "406037.26",
+          "transactionTimestamp": "2026-03-07T14:33:00Z",
+          "valueDate": "2026-03-07",
+          "txnId": "UPI37862121",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "644.78",
+          "currentBalance": "406682.04",
+          "transactionTimestamp": "2026-03-08T10:22:00Z",
+          "valueDate": "2026-03-08",
+          "txnId": "UPI69267112",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_134"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "208.50",
+          "currentBalance": "406890.54",
+          "transactionTimestamp": "2026-03-08T10:27:00Z",
+          "valueDate": "2026-03-08",
+          "txnId": "UPI49020460",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_039"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "326.89",
+          "currentBalance": "406563.65",
+          "transactionTimestamp": "2026-03-09T14:43:00Z",
+          "valueDate": "2026-03-09",
+          "txnId": "UPI70213240",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "871.22",
+          "currentBalance": "407434.87",
+          "transactionTimestamp": "2026-03-09T10:49:00Z",
+          "valueDate": "2026-03-09",
+          "txnId": "UPI66715371",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_008"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "755.16",
+          "currentBalance": "408190.03",
+          "transactionTimestamp": "2026-03-10T10:44:00Z",
+          "valueDate": "2026-03-10",
+          "txnId": "UPI33830170",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_137"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "345.46",
+          "currentBalance": "407844.57",
+          "transactionTimestamp": "2026-03-10T14:35:00Z",
+          "valueDate": "2026-03-10",
+          "txnId": "UPI15120323",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "901.58",
+          "currentBalance": "406942.99",
+          "transactionTimestamp": "2026-03-11T14:21:00Z",
+          "valueDate": "2026-03-11",
+          "txnId": "UPI19987740",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "244.57",
+          "currentBalance": "406698.42",
+          "transactionTimestamp": "2026-03-11T14:40:00Z",
+          "valueDate": "2026-03-11",
+          "txnId": "UPI43956336",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "367.83",
+          "currentBalance": "406330.59",
+          "transactionTimestamp": "2026-03-12T14:16:00Z",
+          "valueDate": "2026-03-12",
+          "txnId": "UPI31402671",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "219.29",
+          "currentBalance": "406111.30",
+          "transactionTimestamp": "2026-03-12T14:47:00Z",
+          "valueDate": "2026-03-12",
+          "txnId": "UPI40678344",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "334.43",
+          "currentBalance": "406445.73",
+          "transactionTimestamp": "2026-03-12T10:26:00Z",
+          "valueDate": "2026-03-12",
+          "txnId": "UPI65504819",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_026"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "179.42",
+          "currentBalance": "406625.15",
+          "transactionTimestamp": "2026-03-13T10:50:00Z",
+          "valueDate": "2026-03-13",
+          "txnId": "UPI32229824",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_141"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "331.78",
+          "currentBalance": "406956.93",
+          "transactionTimestamp": "2026-03-14T10:21:00Z",
+          "valueDate": "2026-03-14",
+          "txnId": "UPI90724957",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_041"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "697.94",
+          "currentBalance": "407654.87",
+          "transactionTimestamp": "2026-03-15T10:30:00Z",
+          "valueDate": "2026-03-15",
+          "txnId": "UPI52676165",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_029"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "377.28",
+          "currentBalance": "408032.15",
+          "transactionTimestamp": "2026-03-15T10:47:00Z",
+          "valueDate": "2026-03-15",
+          "txnId": "UPI94901604",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_141"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "601.23",
+          "currentBalance": "408633.38",
+          "transactionTimestamp": "2026-03-15T10:45:00Z",
+          "valueDate": "2026-03-15",
+          "txnId": "UPI93571282",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_119"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "75.69",
+          "currentBalance": "408709.07",
+          "transactionTimestamp": "2026-03-16T10:34:00Z",
+          "valueDate": "2026-03-16",
+          "txnId": "UPI14846922",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_007"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "198.85",
+          "currentBalance": "408907.92",
+          "transactionTimestamp": "2026-03-16T10:36:00Z",
+          "valueDate": "2026-03-16",
+          "txnId": "UPI96931146",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_028"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "663.11",
+          "currentBalance": "409571.03",
+          "transactionTimestamp": "2026-03-16T10:11:00Z",
+          "valueDate": "2026-03-16",
+          "txnId": "UPI97695628",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_005"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "682.06",
+          "currentBalance": "408888.97",
+          "transactionTimestamp": "2026-03-17T14:47:00Z",
+          "valueDate": "2026-03-17",
+          "txnId": "UPI79337470",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "575.88",
+          "currentBalance": "408313.09",
+          "transactionTimestamp": "2026-03-17T14:42:00Z",
+          "valueDate": "2026-03-17",
+          "txnId": "UPI77442024",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "935.80",
+          "currentBalance": "409248.89",
+          "transactionTimestamp": "2026-03-17T10:18:00Z",
+          "valueDate": "2026-03-17",
+          "txnId": "UPI76876015",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_138"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "893.62",
+          "currentBalance": "408355.27",
+          "transactionTimestamp": "2026-03-18T14:10:00Z",
+          "valueDate": "2026-03-18",
+          "txnId": "UPI58267866",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "610.95",
+          "currentBalance": "407744.32",
+          "transactionTimestamp": "2026-03-18T14:32:00Z",
+          "valueDate": "2026-03-18",
+          "txnId": "UPI26834355",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "201907.63",
+          "currentBalance": "609651.95",
+          "transactionTimestamp": "2026-03-18T11:20:00Z",
+          "valueDate": "2026-03-18",
+          "txnId": "RTGS41876806",
+          "narration": "RTGS-INWARD-SETTLEMENT-ALPHA_LOGISTICS"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "180561.48",
+          "currentBalance": "429090.47",
+          "transactionTimestamp": "2026-03-18T15:45:00Z",
+          "valueDate": "2026-03-18",
+          "txnId": "NEFT44504315",
+          "narration": "NEFT-OUTWARD-TRFR-UNREG_VENDOR_ALPHA"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "641.64",
+          "currentBalance": "429732.11",
+          "transactionTimestamp": "2026-03-19T10:31:00Z",
+          "valueDate": "2026-03-19",
+          "txnId": "UPI68670259",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_068"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "621.14",
+          "currentBalance": "430353.25",
+          "transactionTimestamp": "2026-03-19T10:37:00Z",
+          "valueDate": "2026-03-19",
+          "txnId": "UPI28830492",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_044"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "627.18",
+          "currentBalance": "429726.07",
+          "transactionTimestamp": "2026-03-20T14:38:00Z",
+          "valueDate": "2026-03-20",
+          "txnId": "UPI76299856",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "656.47",
+          "currentBalance": "429069.60",
+          "transactionTimestamp": "2026-03-20T14:49:00Z",
+          "valueDate": "2026-03-20",
+          "txnId": "UPI95333595",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "876.60",
+          "currentBalance": "429946.20",
+          "transactionTimestamp": "2026-03-21T10:12:00Z",
+          "valueDate": "2026-03-21",
+          "txnId": "UPI28460909",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_052"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "753.09",
+          "currentBalance": "430699.29",
+          "transactionTimestamp": "2026-03-21T10:15:00Z",
+          "valueDate": "2026-03-21",
+          "txnId": "UPI96592528",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_023"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "377.21",
+          "currentBalance": "431076.50",
+          "transactionTimestamp": "2026-03-21T10:15:00Z",
+          "valueDate": "2026-03-21",
+          "txnId": "UPI41411561",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_128"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "86.02",
+          "currentBalance": "431162.52",
+          "transactionTimestamp": "2026-03-22T10:44:00Z",
+          "valueDate": "2026-03-22",
+          "txnId": "UPI29372491",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_120"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "742.83",
+          "currentBalance": "431905.35",
+          "transactionTimestamp": "2026-03-23T10:13:00Z",
+          "valueDate": "2026-03-23",
+          "txnId": "UPI24115925",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_150"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "769.11",
+          "currentBalance": "432674.46",
+          "transactionTimestamp": "2026-03-23T10:12:00Z",
+          "valueDate": "2026-03-23",
+          "txnId": "UPI33287058",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_077"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "849.56",
+          "currentBalance": "431824.90",
+          "transactionTimestamp": "2026-03-24T14:45:00Z",
+          "valueDate": "2026-03-24",
+          "txnId": "UPI67150536",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "404.51",
+          "currentBalance": "431420.39",
+          "transactionTimestamp": "2026-03-24T14:39:00Z",
+          "valueDate": "2026-03-24",
+          "txnId": "UPI55241936",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "550.41",
+          "currentBalance": "430869.98",
+          "transactionTimestamp": "2026-03-24T14:19:00Z",
+          "valueDate": "2026-03-24",
+          "txnId": "UPI85428681",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "896.59",
+          "currentBalance": "429973.39",
+          "transactionTimestamp": "2026-03-25T14:15:00Z",
+          "valueDate": "2026-03-25",
+          "txnId": "UPI56279686",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "120.33",
+          "currentBalance": "429853.06",
+          "transactionTimestamp": "2026-03-26T14:14:00Z",
+          "valueDate": "2026-03-26",
+          "txnId": "UPI57620881",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "114.03",
+          "currentBalance": "429967.09",
+          "transactionTimestamp": "2026-03-27T10:43:00Z",
+          "valueDate": "2026-03-27",
+          "txnId": "UPI57318903",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_140"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "295.83",
+          "currentBalance": "429671.26",
+          "transactionTimestamp": "2026-03-27T14:20:00Z",
+          "valueDate": "2026-03-27",
+          "txnId": "UPI67764089",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "514.22",
+          "currentBalance": "430185.48",
+          "transactionTimestamp": "2026-03-27T10:42:00Z",
+          "valueDate": "2026-03-27",
+          "txnId": "UPI43175498",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_041"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "217.71",
+          "currentBalance": "430403.19",
+          "transactionTimestamp": "2026-03-28T10:19:00Z",
+          "valueDate": "2026-03-28",
+          "txnId": "UPI26740723",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_150"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "798.78",
+          "currentBalance": "429604.41",
+          "transactionTimestamp": "2026-03-28T14:44:00Z",
+          "valueDate": "2026-03-28",
+          "txnId": "UPI97567837",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "533.94",
+          "currentBalance": "430138.35",
+          "transactionTimestamp": "2026-03-29T10:11:00Z",
+          "valueDate": "2026-03-29",
+          "txnId": "UPI97923658",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_123"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "57.21",
+          "currentBalance": "430081.14",
+          "transactionTimestamp": "2026-03-29T14:19:00Z",
+          "valueDate": "2026-03-29",
+          "txnId": "UPI77700559",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "899.64",
+          "currentBalance": "429181.50",
+          "transactionTimestamp": "2026-03-29T14:32:00Z",
+          "valueDate": "2026-03-29",
+          "txnId": "UPI20442690",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "RTGS",
+          "amount": "195780.36",
+          "currentBalance": "624961.86",
+          "transactionTimestamp": "2026-03-29T11:20:00Z",
+          "valueDate": "2026-03-29",
+          "txnId": "RTGS61896886",
+          "narration": "RTGS-INWARD-SETTLEMENT-TRIDENT_INFRA"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "NEFT",
+          "amount": "186466.39",
+          "currentBalance": "438495.47",
+          "transactionTimestamp": "2026-03-29T15:45:00Z",
+          "valueDate": "2026-03-29",
+          "txnId": "NEFT33281631",
+          "narration": "NEFT-OUTWARD-TRFR-PERSONAL_ACC_TRANSFER_DIRECT"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "391.49",
+          "currentBalance": "438103.98",
+          "transactionTimestamp": "2026-03-30T14:11:00Z",
+          "valueDate": "2026-03-30",
+          "txnId": "UPI80066307",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "DEBIT",
+          "mode": "UPI",
+          "amount": "883.28",
+          "currentBalance": "437220.70",
+          "transactionTimestamp": "2026-03-30T14:27:00Z",
+          "valueDate": "2026-03-30",
+          "txnId": "UPI23914221",
+          "narration": "UPI-PETTY-CASH-OFFICE_MAR"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "255.05",
+          "currentBalance": "437475.75",
+          "transactionTimestamp": "2026-03-31T10:21:00Z",
+          "valueDate": "2026-03-31",
+          "txnId": "UPI63013278",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_003"
+        },
+        {
+          "type": "CREDIT",
+          "mode": "UPI",
+          "amount": "916.09",
+          "currentBalance": "438391.84",
+          "transactionTimestamp": "2026-03-31T10:23:00Z",
+          "valueDate": "2026-03-31",
+          "txnId": "UPI12338363",
+          "narration": "UPI-RETAIL-PAY-UPI_User_M_082"
+        }
+      ]
+    }
+  }
+}
