@@ -155,7 +155,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 .gate-warn { color: #92400e; font-weight: 700; }
 .gate-fail { color: #991b1b; font-weight: 700; }
 .brand-sidebar { padding: 0.3rem 0; margin-bottom: 0.3rem; }
-.brand-title { color: var(--text); font-size: 1.1rem; font-weight: 800; line-height: 1.2; margin-bottom: 0.35rem; }
+.brand-title { color: var(--text) !important; font-size: 1.1rem; font-weight: 800; line-height: 1.2; margin-bottom: 0.35rem; }
 .sidebar-link { display: inline-flex; align-items: center; gap: 5px; color: #0a66c2 !important; font-size: 0.82rem; font-weight: 700; text-decoration: none; margin-top: 4px; }
 .sidebar-link:hover { text-decoration: underline; }
 .linkedin-icon { width: 16px; height: 16px; border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; background: #0a66c2; color: white; font-size: 11px; font-weight: 800; line-height: 1; }
