@@ -10,12 +10,10 @@ import duckdb
 from datetime import datetime
 
 load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY", "")
+api_key = os.getenv("GEMINI_API_KEY")
 
 st.set_page_config(
-    
     page_title="MSME Underwriter | Institutional Release",
-    page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={"Get Help": None, "Report a bug": None, "About": None}
@@ -63,6 +61,19 @@ st.markdown("""
     }
 }
 html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+/* ── Sidebar collapse button: hide broken Material Icons text, inject chevron ── */
+[data-testid="stSidebarCollapseButton"] span,
+[data-testid="stSidebarCollapsedControl"] span {
+    font-size: 0 !important;
+    color: transparent !important;
+}
+[data-testid="stSidebarCollapseButton"] span::after,
+[data-testid="stSidebarCollapsedControl"] span::after {
+    content: '❮';
+    font-size: 15px !important;
+    color: var(--muted) !important;
+    font-family: Arial, sans-serif !important;
+}
 .stApp { background: var(--bg); color: var(--text); }
 .hero-card {
     background: var(--surface);
@@ -109,7 +120,34 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 .metric-good  { background: #dcfce7; color: #166534; }
 .metric-watch { background: #fef3c7; color: #92400e; }
 .metric-bad   { background: #fee2e2; color: #991b1b; }
-.tooltip-icon { color: var(--muted); cursor: help; font-size: 1rem; }
+.tooltip-icon {
+    position: relative; cursor: pointer;
+    color: var(--muted); font-size: 1rem;
+}
+.tooltip-icon:focus { outline: none; }
+.tooltip-text {
+    display: none;
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1f2937;
+    color: #fff;
+    font-size: 0.74rem;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    padding: 7px 10px;
+    border-radius: 8px;
+    width: 210px;
+    z-index: 9999;
+    line-height: 1.45;
+    white-space: normal;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+}
+.tooltip-icon:hover .tooltip-text,
+.tooltip-icon:focus .tooltip-text { display: block; }
 .caption-box { background: var(--surface-2); border: 1px solid var(--border); padding: 12px 14px; border-radius: 10px; color: var(--text); font-size: 0.9rem; line-height: 1.45; }
 .section-kicker { color: var(--muted); text-transform: uppercase; letter-spacing: .08em; font-size: 0.72rem; font-weight: 800; margin-bottom: 8px; }
 .insight-box { background: var(--surface-2); border-left: 4px solid var(--primary); border-radius: 0 8px 8px 0; padding: 10px 14px; margin: 12px 0 16px 0; color: var(--muted); font-size: 0.86rem; font-style: italic; }
@@ -294,7 +332,7 @@ div[data-testid="stTabs"] div[data-testid="stHorizontalBlock"] .stButton button[
 TOOLTIPS = {
     "HHI": "Concentration Risk: scores above 0.40 indicate dangerous dependency on a narrow set of buyers.",
     "CRR": "Retention: percentage of customers from Month 1 who returned in Month 3.",
-    "DSCR": "Serviceability: monthly cash surplus ÷ implied new EMI. Below 1.0x = auto-decline.",
+    "DSCR": "Serviceability: ability to cover the new EMI with current surplus cash flow.",
     "DIV": "Integrity: percentage gap between bank credits and GST declarations.",
     "CV": "Volatility: predictability of cash flow. Scores above 0.60 suggest erratic revenue.",
     "GAP": "Operational silence: the longest period in days without a business credit."
@@ -401,8 +439,8 @@ def metric_signal(metric, value):
         if value >= 0.35: return "Retention needs monitoring", "metric-watch"
         return "Weak repeat behavior", "metric-bad"
     if metric == "DSCR":
-        if value >= 1.50: return "Comfortable debt cover", "metric-good"
-        if value >= 1.00: return "Borderline serviceability", "metric-watch"
+        if value >= 1.20: return "Comfortable debt cover", "metric-good"
+        if value >= 0.80: return "Borderline serviceability", "metric-watch"
         return "Insufficient repayment cover", "metric-bad"
     if metric == "DIV":
         abs_v = abs(value)
@@ -423,7 +461,7 @@ def metric_signal(metric, value):
 def render_metric_card(title, tooltip, display_value, signal_text, signal_class, benchmark_text):
     return f"""
     <div class='hero-card'>
-        <div class='hero-label'>{title} <span class='tooltip-icon' title='{tooltip}'>ⓘ</span></div>
+        <div class='hero-label'>{title} <span class='tooltip-icon' tabindex='0'>ⓘ<span class='tooltip-text'>{tooltip}</span></span></div>
         <div class='hero-value'>{display_value}</div>
         <div class='hero-subtext'>{benchmark_text}</div>
         <span class='metric-badge {signal_class}'>{signal_text}</span>
@@ -489,20 +527,7 @@ with st.sidebar:
         "<div class='sidebar-step-label'><span class='sidebar-step-num'>3</span> Run the engine</div>",
         unsafe_allow_html=True
     )
-    if st.button("▶ Execute Audit", use_container_width=True, type="primary"):
-     if persona_choice == "Select...":
-        st.warning("⚠️ Select a borrower persona first.")
-     else:
-        df, gst, p_emi, entity = fetch_sourced_persona(persona_choice)
-        st.session_state.update({
-            "df_txns": df,
-            "gst_logs": gst,
-            "p_emi": p_emi,
-            "req": loan_req_input,
-            "biz_name": persona_choice,
-            "entity": entity,
-            "ai_memo": None
-        })
+    if st.button("▶ Execute Audit", use_container_width=True, type="primary") and persona_choice != "Select...":
         df, gst, p_emi, entity = fetch_sourced_persona(persona_choice)
         st.session_state.update({
             "df_txns": df,
@@ -600,24 +625,23 @@ else:
     risk_score           = min((hhi * 30) + (total_b * 15) + (max(max_gap - 7, 0) * 4) + (avg_cv * 15), 100)
 
     dscr_ratio       = limit_serviceability / max(st.session_state["req"], 1)
-    proposed_emi = st.session_state.req / 36
+    limit_vs_req_pct = (final_limit / max(st.session_state["req"], 1)) * 100
+    proposed_emi    = st.session_state.req / 36
     monthly_surplus = max(v_turnover - st.session_state.p_emi, 0)
-    true_dscr = monthly_surplus / max(proposed_emi, 1)
-    limit_vs_req_pct = final_limit / max(st.session_state.req, 1) * 100
-
-    if dscr_ratio < 0.1 or total_b > 1:
+    true_dscr       = monthly_surplus / max(proposed_emi, 1)
+    if true_dscr < 1.0 or total_b > 1:  # FIX: aligned with gate formula
         verdict, status_class = "DECLINE", "decline"
     elif risk_score < 45 and final_limit > (st.session_state["req"] * 0.5):
         verdict, status_class = "APPROVE", "approve"
     else:
         verdict, status_class = "REFER", "refer"
 
-    gate_dscr_pass   = true_dscr  >= 1.0
+    gate_dscr_pass   = dscr_ratio >= 0.1
     gate_div_pass    = abs(gst_variance) <= 15
-    gate_bounce_pass = total_b == 0
+    gate_bounce_pass = total_b <= 1  # FIX: Stability Gate triggers only if bounces > 1
     gate_yield_pass  = limit_vs_req_pct >= 50
 
-    gate_dscr_val   = f"{true_dscr:.2f}x"
+    gate_dscr_val   = f"{dscr_ratio:.2f}x"
     gate_div_val    = f"{gst_variance:.1f}%"
     gate_bounce_val = f"{int(total_b)} bounces"
     gate_yield_val  = f"{limit_vs_req_pct:.0f}% covered"
@@ -689,8 +713,9 @@ else:
     r1[0].markdown(render_metric_card("HHI (CONCENTRATION)", TOOLTIPS["HHI"], f"{hhi:.2f}", sig_text, sig_class, "Benchmark: ≤0.15 healthy, >0.40 high dependency"), unsafe_allow_html=True)
     sig_text, sig_class = metric_signal("CRR", crr)
     r1[1].markdown(render_metric_card("CRR (RETENTION)", TOOLTIPS["CRR"], f"{crr*100:.1f}%", sig_text, sig_class, "Benchmark: ≥60% sticky customer franchise"), unsafe_allow_html=True)
-    sig_text, sig_class = metric_signal("DSCR", true_dscr)
-    r1[2].markdown(render_metric_card("DEBT SERVICE COVER", TOOLTIPS["DSCR"], f"{true_dscr:.2f}x", sig_text, sig_class, "Benchmark:  <1.0x auto-decline | >1.2x comfortable cover"), unsafe_allow_html=True)
+    sig_text, sig_class = metric_signal("DSCR", dscr_ratio)
+    r1[2].markdown(render_metric_card("MODIFIED DSCR", TOOLTIPS["DSCR"], f"{dscr_ratio:.2f}x", sig_text, sig_class, "Benchmark: ≥1.2x comfortable repayment cover"), unsafe_allow_html=True)
+
     st.markdown("<br>", unsafe_allow_html=True)
     r2 = st.columns(3)
     sig_text, sig_class = metric_signal("DIV", gst_variance)
@@ -857,7 +882,7 @@ else:
         st.markdown(f"""<table class='policy-table'>
             <tr><th>Gate</th><th>Metric</th><th>Trigger</th><th>Institutional Result</th><th>This Applicant</th></tr>
             <tr>
-                <td><b>Survival Gate</b></td><td>Debt Service Cover</td><td>&lt; 1.0</td><td><b>AUTO-DECLINE</b></td>
+                <td><b>Survival Gate</b></td><td>DSCR</td><td>&lt; 1.0</td><td><b>AUTO-DECLINE</b></td>
                 <td>{gate_signal(gate_dscr_pass)} {gate_dscr_val}</td>
             </tr>
             <tr>
@@ -927,7 +952,7 @@ for customer identity — which powers the concentration and retention metrics.
 |--------|-----------------|---------------|
 | **HHI** (Herfindahl Index) | Inflow concentration across payees | ≤ 0.15 |
 | **CRR** (Customer Retention Rate) | % of Jan payees who returned in Mar | ≥ 60% |
-| **Debt Service Cover** | Monthly surplus ÷ implied new EMI (loan ÷ 36) | ≥ 1.0x |
+| **Modified DSCR** | Limit serviceability ÷ requested amount | ≥ 1.0x |
 | **GST Variance** | Gap between bank credits and GST filings | Within ±15% |
 | **CV** (Coefficient of Variation) | Volatility of daily inflows | ≤ 0.25 |
 | **Max Gap** | Longest streak without a credit entry | ≤ 3 days |
@@ -966,7 +991,7 @@ get a term structure with fixed repayment, not a revolving line they can over-dr
             <tr><th>Formula</th><th>Definition</th><th>Threshold</th></tr>
             <tr><td><b>HHI</b></td><td>Σ(payee share)² — Herfindahl concentration index on inflow sources</td><td>≤ 0.15 clean · > 0.40 flag</td></tr>
             <tr><td><b>CRR</b></td><td>Month-3 unique payees ÷ Month-1 unique payees</td><td>≥ 60% healthy</td></tr>
-            <tr><td><b>Debt Service Cover</b></td><td>Monthly Surplus ÷ Implied New EMI (Loan ÷ 36)</td><td>&gt;1.0x survival gate</td></tr>
+            <tr><td><b>Modified DSCR</b></td><td>Limit Serviceability ÷ Requested Amount</td><td>≥ 1.0 survival gate</td></tr>
             <tr><td><b>GST Variance</b></td><td>(Bank Avg ÷ GST Avg − 1) × 100</td><td>±15% triggers 50% haircut</td></tr>
             <tr><td><b>CV</b></td><td>StdDev(daily credits) ÷ Mean(daily credits)</td><td>≤ 0.25 stable · > 0.60 erratic</td></tr>
             <tr><td><b>Max Gap</b></td><td>Longest day-gap between consecutive credit entries</td><td>> 7 days = operating silence</td></tr>
