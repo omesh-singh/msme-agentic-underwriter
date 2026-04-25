@@ -552,7 +552,7 @@ with st.sidebar:
     st.markdown("<hr>", unsafe_allow_html=True)
     try:
         _r = requests.get(
-            "https://api.counter.dev/get?user=omesh-msme-underwriter&id=visits",
+            "https://api.counter.dev/hit?user=omesh-msme-underwriter&id=visits",
             timeout=2
         )
         _count = f"{int(_r.text.strip()):,}"
