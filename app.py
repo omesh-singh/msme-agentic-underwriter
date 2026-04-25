@@ -1,5 +1,6 @@
 import os
 import json
+import requests
 import numpy as np
 import altair as alt
 import streamlit as st
@@ -473,13 +474,22 @@ def gate_signal(passed, warn=False):
     if passed: return "<span class='gate-pass'>PASS</span>"
     elif warn:  return "<span class='gate-warn'>WARN</span>"
     else:       return "<span class='gate-fail'>FAIL</span>"
-
-
 def render_creator_footer():
+    try:
+        _r = requests.get(
+            "https://api.counter.dev/get?user=omesh-msme-underwriter&id=visits",
+            timeout=2
+        )
+        _count = f"{int(_r.text.strip()):,}"
+    except:
+        _count = "—"
+
     st.markdown(
-        """<div class='credit-footer'>
+        f"""<div class='credit-footer'>
             Crafted by <a href='https://www.linkedin.com/in/omeshksingh/' target='_blank'>
             <span class='linkedin-icon'>in</span> Omesh Kumar Singh</a>
+            <div style='color:var(--muted); font-size:0.72rem; margin-top:6px;'>
+                👁 {_count} visits</div>
         </div>""",
         unsafe_allow_html=True,
     )
@@ -538,7 +548,21 @@ with st.sidebar:
             "entity": entity,
             "ai_memo": None
         })
-
+    # ── Visit counter ──
+    st.markdown("<hr>", unsafe_allow_html=True)
+    try:
+        _r = requests.get(
+            "https://api.counter.dev/get?user=omesh-msme-underwriter&id=visits",
+            timeout=2
+        )
+        _count = f"{int(_r.text.strip()):,}"
+    except:
+        _count = "—"
+    st.markdown(
+        f"<div style='color:var(--muted); font-size:0.72rem; text-align:center;'>"
+        f"👁 {_count} visits</div>",
+        unsafe_allow_html=True
+    )
 
 # ── MAIN PANEL ──
 if "df_txns" not in st.session_state:
